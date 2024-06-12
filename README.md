@@ -1,14 +1,22 @@
-# Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+# hardhat Ganache fork & any account unlock
 
-Try running some of the following tasks:
+This is a enviroment with an example where Ethereum blockchain has been forked with Ganache CLI, and a DAi holder account has been unlocked, Operations such as transfer, get balance operations can be executed from the unlocked account for example andcan be easily modified for other operations too.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
-# hardhat-fork-ethereum-test-enviroment
+# Build guide
+
+Replace DAI_HOLDER in package.json & .env file with the account you would like to unlock.
+Replace YOUR INFURA RPC URL in package.json with your Infura RPC or some other RPC ( make sure it facilitates forking ).
+
+    npm install 
+
+# Run
+
+Fork & run the Ganache cli.
+    npm run fork
+
+Execute transfer.
+    npm run transfer
+
+Get balance of the DAI_HOLDER account.
+    npm run balance
