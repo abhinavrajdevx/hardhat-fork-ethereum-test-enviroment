@@ -13,10 +13,13 @@ Replace YOUR INFURA RPC URL in package.json with your Infura RPC or some other R
 # Run
 
 Fork & run the Ganache cli.
+
     npm run fork
 
 Execute transfer.
+
     npm run transfer
 
 Get balance of the DAI_HOLDER account.
+
     npm run balance
