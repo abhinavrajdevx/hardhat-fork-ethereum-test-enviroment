@@ -1,5 +1,5 @@
 
-# hardhat Ganache fork & any account unlock
+# HardHat Ganache CLI fork & any account unlock
 
 This is a enviroment with an example where Ethereum blockchain has been forked with Ganache CLI, and a DAi holder account has been unlocked, Operations such as transfer, get balance operations can be executed from the unlocked account for example andcan be easily modified for other operations too.
 
