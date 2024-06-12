@@ -16,7 +16,7 @@ Fork & run the Ganache cli.
 
     npm run fork
 
-Execute transfer.
+Execute transfer from DAI_HOLDER account.
 
     npm run transfer
 
