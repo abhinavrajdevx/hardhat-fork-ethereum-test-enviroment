@@ -1,0 +1,15 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "fork": "npx ganache-cli -p 7545 --fork <YOUR INFURA RPC URL> --unlock 0x2fEb1512183545f48f6b9C5b4EbfCaF49CfCa6F3",
+    "transfer": "npx hardhat run ./scripts/transfer.js --network fork",
+    "balance": "npx hardhat run ./scripts/balance.js --network fork"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
